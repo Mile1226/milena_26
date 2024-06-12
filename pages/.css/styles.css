@@ -1,0 +1,114 @@
+.card_1{
+    width: 500px;
+    border: 2px solid;
+    padding: 25px;
+    margin: 25px auto;
+    text-align: center;
+    background-color: rgb(255, 63, 153);
+   
+}
+
+.li_1:hover{
+    color: hwb(0 98% 2%);
+    font-size: 25px;
+    background-color: hwb(295 61% 0%);
+    text-decoration: underline; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.nav1 a{
+    text-decoration: none;
+    color: rgb(255, 5, 130);
+}
+ 
+.h1_1{
+    color: hsl(332, 100%, 50%);
+    color: rgb(red, rgb(245, 4, 96), blue);
+    color: rgba(rgb(153, 0, 255), green, blue, alpha);
+    background-color: hsl(327, 100%, 82%);
+    font-size: 50px;
+    font-family:medium;
+    text-align: center;
+    letter-spacing: 20px;
+    
+     
+}
+.btn1{
+    color: white;
+    background-color: hwb(318 8% 22%);
+    border-radius: 10px;
+    padding: 10px 10px 10px 20px;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+li{
+    display: center;
+}
+
+ul{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    position: static;
+    top: 10px;
+    right: 20px;
+ }
+ 
+ nav li{
+    display:block;
+}
+
+
+
+.card_2{
+    width: 500px;
+    border: 2px solid;
+    padding: 25px;
+    margin: 25px auto;
+    text-align: center;
+    background-color: hwb(253 0% 0%);
+    border: 3px solid yellow;
+}
+.h1_2{
+    color: rgb(255, 238, 0);
+    color: rgb(red, rgb(245, 4, 96), blue);
+    color: rgba(rgb(153, 0, 255), green, blue, alpha);
+    background-color: blue;
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 20px; 
+}
+.li_2:hover{
+    color: hwb(0 99% 1%);
+    font-size: 25px;
+    background-color: hsl(59, 100%, 51%);
+    text-decoration: underline; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav2 a{
+    text-decoration: none;
+    color: #0400ff;
+}
+.btn2{
+    color: #070707;
+    background-color: rgb(255, 251, 20);
+    border-radius: 10px;
+    padding: 9px 9px 9px 9px;
+    text-align: center;
+    padding-right: 9px;
+    padding-left: 9px;
+}
+.card2-title{
+color: white;
+}
+.card2-text{
+color: white;
+}

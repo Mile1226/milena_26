@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+h1 {
+    color: hsl(340, 100%, 50%);
+    color: rgb(red, rgb(245, 4, 96), blue);
+    color: rgba(red, green, blue, alpha);
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 20px;
+ }
+
+.parrofo_color{
+    color:#b9013e;
+    font-size: 25px;
+    font-style: italic;
+}
+
+h2{
+    color: rgb(255, 168, 194);
+    color: rgb( #FF006C,#FB0050, #E2146B );
+    color: rgba(red, green, blue, alpha);
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 20px;
+  }
+  
+ .parrofo_color{
+    color: hwb(268 7% 25%);
+    text-align: left;
+    font-style: italic;
+    font-size: 20px;
+    }
+    h3{
+    color: #FB0050;
+    color: rgb( #FF006C,#FB0050, #E2146B );
+    color: rgba(red, green, blue, alpha);
+    font-size: 50px;
+    font-style: italic;
+    text-align: left;
+    letter-spacing: 20px;
+
+}
+
+li{
+    display: center;
+}
+
+ul{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.estilos{
+    color:aqua;
+}
+
+header{
+    background-color: fuchsia;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.titulo{
+    position: absolute;
+    padding: 70px;
+    top: 10px;
+    left: 15px;
+}
+
+nav{
+   position: absolute;
+   top: 10px;
+   right: 20px;
+}
+
+nav li{
+    display: block;
+    text-align:center;
+    font-size: 12px;
+    font-style: Bold 700;
+    letter-spacing: 5px;
+
+   
+}
+nav li:hover{
+    color: hsl(315, 100%, 98%);
+    font-size: 25px;
+    background-color: #e9348e;
+    text-decoration: underline; 
+}
+nav a{
+    text-decoration: none;
+    color: #fcfcfc;
+}
+
+.card{
+    background-color: #e74b65;
+    width: 400px;
+    height: 350px;
+    text-align: center;
+     border: 5px solid #fc1c41 ; 
+     border-radius: 20px;
+     padding: 25px 10px 30px 50px;
+     padding-top: 40px;
+     padding-right: 30px;
+     padding-left: 10px;
+    
+}
+
+.card img{
+    width: 80%;
+    border: 10px solid #c4063f;
+   }
+
+   .div{
+    background-color: #ff89dc;
+    width: 450px;
+    height: 350px;
+    text-align: center;
+     border: 5px solid hwb(340 0% 0% / 0.918) ; 
+     border-radius: 20px;
+     padding: 25px 10px 30px 50px;
+     padding-top: 40px;
+     padding-right: 30px;
+     padding-left: 10px;
+     
+    
+}
+
+.div img{
+    width: 100%;
+    border: 10px solid hwb(327 0% 0%);
+   }
+
+.parent2{
+    background-color: hsl(56, 99%, 49%);
+    width: 450px;
+    height: 350px;
+    text-align: center;
+     border: 5px solid hwb(249 0% 50%) ; 
+     border-radius: 20px;
+     padding: 25px 10px 30px 50px;
+     padding-top: 40px;
+     padding-right: 30px;
+     padding-left: 10px;
+     
+    }
+
+.parent2 img{
+    width: 100%;
+    border: 10px solid hsl(236, 100%, 35%);
+   }
+.padre{
+    background-color: #E2146B;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+} 
+
+footer{
+    background-color: #cc1452;
+}
+.contenador_limite{
+    background-color: hsl(271, 100%, 73%);
+    width: 300px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 5px solid #5e00ac;
+    text-align: center;
+   
+}
+
+.contenador_limite_2{
+    background-color: #f30065;
+   padding: 10px;
+   max-width: 1200px;
+   margin:0 auto;
+
+
+}
+
+section{
+    margin: 50px;
+}
+p {
+    font-size: 20px;
+    font-style: italic;
+   color: red;} 
+
+
+   /*----media query----*/
+
+   @media screen and (max-width :700px) {
+   header{
+    flex-direction: column;
+    align-items: start;
+    justify-content:start ;
+
+   }
+
+    h1{
+        font-size: 20px;
+    }   
+}
+
+/*---------------------------grillsa---------------------------*/
+.parent {
+    max-width: 2200px;
+    background-color: #e74b65;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    }
+    .div1 { grid-area: 1 / 1 / 2 / 2; 
+
+    }
+    .div1 img {
+           width: 90%;
+            height: 100%;
+    }
+    .div2 { grid-area: 1 / 2 / 2 / 3; 
+        
+    }
+    .div2 img{
+        width: 80%;
+        height: 100%;
+        
+    }
+   .div3 { grid-area: 2 / 1 / 3 / 2;
+       
+     }
+     .div3 img{
+        width: 90%;
+        height: 80%;
+        
+    }
+    .div4 { grid-area: 2 / 2 / 3 / 3; 
+    }
+    .div4 img {
+        width: 90%;
+        height: 80%;
+    }
+    
+   /*----media query----*/
+
+   @media screen and (max-width :700px) {
+    header{
+     flex-direction: column;
+     align-items: start;
+     justify-content:start ;
+ 
+    }
+ 
+     h1{
+         font-size: 20px;
+     }   
+ }
+
+   

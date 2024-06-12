@@ -1,0 +1,12 @@
+header{
+    background-color: #ff008c;
+}
+
+.card{
+    width: 500px;
+    border: 2px solid;
+    padding: 25px;
+    margin: 25px auto;
+    text-align: center;
+    background-color: #6f01ff;
+}
